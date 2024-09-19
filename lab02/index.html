@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 02</title>
+    <link rel="stylesheet" href="Styles.css" />
+</head>
+
+<body>
+    <h1>Seja Bem-vindo ao meu Lab 02</h1>
+    <h3>Receita para fazer um macarrão carbonara</h3>
+    <p>Ingredientes:</p>
+
+    <ul>
+        <li>150g de Guanciale</li>
+        <li>300g de Macarrão de sua preferência</li>
+        <li>6 gemas de ovo</li>
+        <li>70g de queijo parmesão</li>
+        <li>70g de queijo pecorino romano</li>
+        <li>Pimenta do reino moída</li>
+    </ul>
+    <p>Modo de preparo:</p>
+
+    <ol>
+        <li>Fatie o Guanciale em cubos e frite ele. Reserve.</li>
+        <li>Ferva água e coloque o macarrão para cozinhar. Retire quando estiver al dente.</li>
+        <li>Em um recipiente coloque as gemas, os queijos ralados e a pimenta. Após isso, adicione 2 colheres de sopa da água do cozimento do macarrão. Misture até virar uma pasta.</li>
+        <li>Quando o cozimento do macarrão for concluído, coloque ele em uma frigideira e misture com a pasta e o guanciale, em fogo baixo.</li>
+    </ol>
+
+    <form>
+        <label>Avalie a nossa receita:</label>
+        <select>
+            <option value="Muito Satisfeito">Muito Satisfeito</option>
+            <option value="Satisfeito" selected>Satisfeito</option>
+            <option value="Insatisfeito">Insatisfeito</option>
+        </select>
+        <label for="experiência">Compartilhe sua experiência conosco!</label>
+        <textarea id="experiência" name="experiência" placeholder="Digite sua experiência aqui..."></textarea>
+        <input type="submit">
+    </form>
+
+    <canvas id="retângulo" width="50" height="40" style="background-color: yellow;"></canvas>
+    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="100" cy="100" r="80" fill="blue" />
+        <path d="M100,100 L100,20 A80,80 0 0,1 180,100 z" fill="red" />
+        <path d="M100,100 L180,100 A80,80 0 0,1 100,180 z" fill="green" />
+        <path d="M100,100 L100,180 A80,80 0 0,1 20,100 z" fill="yellow" />
+        <path d="M100,100 L20,100 A80,80 0 0,1 100,20 z" fill="purple" />
+    </svg>
+
+    <h1>Receita em Video</h1>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/pgh38V5EAm4" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+</body>
+
+</html>

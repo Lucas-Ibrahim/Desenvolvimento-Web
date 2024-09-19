@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background: linear-gradient(90deg, rgb(153, 152, 155) 0%, rgb(161, 161, 163) 100%);
+  }
+  
+  button {
+    width: 100%;
+    text-align: start;
+    padding: 5px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    background-color: #283c46;
+    color: white;
+  }
+  
+    
+  
+  
